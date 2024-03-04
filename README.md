@@ -4,6 +4,17 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup for version 0.72](https://reactnative.dev/docs/0.72/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
+**Before cloning the project, ensure that you choose a location with a shorter path, such as C: or D:, to avoid long path issues**
+
+Run following command in project root directory
+```bash
+# using npm
+npm install
+
+# OR using Yarn
+yarn install
+```
+
 ## First Method 
 
 You can run app directly using single command this command will automatically start metro server
@@ -66,7 +77,7 @@ yarn ios
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-If app is not run in emulator then configure your Android SDK through Android SDK Configuration pdf provided and then again try to run the app.
+**If app is not run in emulator then configure your Android SDK through Android SDK Configuration pdf provided and then try again to run the app.**
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
